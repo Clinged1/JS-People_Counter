@@ -1,0 +1,117 @@
+
+ /* Imported fonts */
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+body {
+    background-image: url("https://images.pexels.com/photos/1734907/pexels-photo-1734907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    font-family: "Doto", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #89FC00;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #EBF5EE;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    ;
+}
+
+
+
+
+#save-btn {
+    
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
+
+#reset-btn {
+    
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+}
+
+
+
+#save-el {
+    color: #F05365;
+}
+
+.container {
+    max-width: 80vw;
+   
+}
+
+@media (min-width: 750px) and (max-width: 1181px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: 100% 100%; /* Stretch the image to fit the container */
+        background-position: center;
+        height: 100vh; /* Set height to full viewport height */
+        margin: 0; /
+    }
+  }
+
+
+  @media (min-width: 480px) and (max-width: 750px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: 100% 100%; /* Stretch the image to fit the container */
+        background-position: center;
+        height: 100vh; /* Set height to full viewport height */
+        margin: 0; 
+        background-image: url("https://images.pexels.com/photos/1771670/pexels-photo-1771670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    }
+  }
+
+  @media (min-width: 0px) and (max-width: 480px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: 100% 100%; /* Stretch the image to fit the container */
+        background-position: center;
+        height: 100vh; /* Set height to full viewport height */
+        margin: 0; 
+        background-image: url("https://images.pexels.com/photos/1808632/pexels-photo-1808632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    }
+
+
+    h2 {
+        color: #ffb3c6;
+    }
+
+    .container {
+        max-width: 80vw;
+    }
+  }
+
+
+
